@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "bulkyshulkytech",
+  "version": "${version}",
+  "name": "Bulky Shulky Tech",
+  "description": "WIP",
+  "authors": [
+    {
+      "name": "i509VCB",
+      "minecraft": "765e5d33-c991-454f-8775-b6a7a394c097",
+      "contact": {
+        "sources": "https://github.com/i509VCB/",
+        "discord": "i509VCB#9778"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/i509VCB/CursedShulkerBoxes",
+    "sources": "https://github.com/i509VCB/CursedShulkerBoxes",
+    "issues": "https://github.com/i509VCB/CursedShulkerBoxes/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/bulkyshulkytech/icon.png",
+  "environment": "*",
+  "entrypoints": {
+
+  },
+  "mixins": [
+    "mixins.accessors.bulkyshulkytech.json",
+    "mixins.bulkyshulkytech.json",
+    "mixins.client.bulkyshulkytech.json"
+  ],
+  "depends": {
+    "confabricate": ">=2.1.0",
+    "fabricloader": ">=0.10.0",
+    "fabric": ">=0.28.0"
+  },
+  "custom": {
+    "cardinal-components": [
+    ]
+  }
+}

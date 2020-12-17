@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "me.i509.bulkyshulkies.mod.mixin.core",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "block.AbstractBlockStateMixin",
+    "block.StairsBlockMixin",
+    "block.entity.LootableContainerBlockEntityMixin",
+    "block.entity.ShulkerBoxBlockEntityMixin",
+    "enchantment.EnchantmentTargetMixin",
+    "entity.LivingEntityMixin",
+    "screen.slot.ShulkerBoxSlotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

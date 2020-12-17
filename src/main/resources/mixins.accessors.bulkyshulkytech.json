@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "me.i509.bulkyshulkies.mod.mixin.accessor",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ShapedRecipeAccessor",
+    "StairsBlockAccessor"
+  ],
+  "client": [
+    "client.AnimalModelAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
